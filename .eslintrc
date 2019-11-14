@@ -1,0 +1,30 @@
+{
+  "extends": ["standard", "prettier"],
+  "plugins": ["prettier", "standard"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100,
+        "singleQuote": true,
+        "semi": true
+      }
+    ],
+    "no-new": 0, // 禁止在使用new构造一个实例后不赋值
+    "eqeqeq": 0, // 使用 === 和 !==
+    "prefer-promise-reject-errors": 0, // 使用error对象作为Promise驳回原因
+    "no-proto": 0, // 禁止使用__proto__
+    "camelcase": 0, // 强制驼峰命名
+    "no-useless-call": 0, // 禁止非必要的call和apply 待确认
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
