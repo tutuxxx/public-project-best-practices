@@ -7,7 +7,15 @@
   "repository": "git@git.jd.com:wqvue/public-project-best-practices.git",
   "author": "yushijie1 <yushijie1@jd.com>",
   "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9",
     "lerna": "^3.18.4"
   }
 }
