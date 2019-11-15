@@ -6,6 +6,9 @@
   "command": {
     "version": {
       "conventionalCommits": true
+    },
+    "publish": {
+      "message": "chore: publish %s"
     }
   },
   "ignoreChanges": [
