@@ -8,7 +8,8 @@
   "author": "yushijie1 <yushijie1@jd.com>",
   "license": "MIT",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "publish": "lerna publish"
   },
   "husky": {
     "hooks": {
