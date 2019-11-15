@@ -8,6 +8,7 @@
   "author": "yushijie1 <yushijie1@jd.com>",
   "license": "MIT",
   "scripts": {
+    "commit": "git-cz"
   },
   "husky": {
     "hooks": {
@@ -21,10 +22,17 @@
       "git add"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "babel-eslint": "^10.0.3",
+    "commitizen": "^4.0.3",
+    "cz-lerna-changelog": "^2.0.2",
     "eslint": "5.16.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-config-standard": "^14.1.0",
