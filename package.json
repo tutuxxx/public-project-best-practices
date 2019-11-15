@@ -5,6 +5,7 @@
   "description": "基于Lerna管理Monorepo项目的最佳实践",
   "main": "index.js",
   "repository": "git@git.jd.com:wqvue/public-project-best-practices.git",
+  "homepage": "https://git.jd.com/wqvue/public-project-best-practices#readme",
   "author": "yushijie1 <yushijie1@jd.com>",
   "license": "MIT",
   "scripts": {
