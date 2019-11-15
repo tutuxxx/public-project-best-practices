@@ -46,7 +46,7 @@ some gitlabels
 
 ## 贡献
 
-[CHANGELOG.md](./CHANGELOG.md)
+[贡献指南](./CONTRIBUTING.md)
 
 ## License
 
