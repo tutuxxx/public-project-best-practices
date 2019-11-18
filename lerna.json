@@ -3,15 +3,19 @@
     "packages/*"
   ],
   "version": "0.0.0",
+  "npmClient": "npm",
   "command": {
-    "version": {
-      "conventionalCommits": true
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": ["--no-package-lock"]
     },
     "publish": {
-      "message": "chore: publish %s"
+      "message": "chore(release): publish %s"
     }
   },
   "ignoreChanges": [
+    "ignored-file",
+    "**/__tests__/**",
     "**/*.md"
   ]
 }
