@@ -1,7 +1,6 @@
 {
   "name": "public-project-best-practices",
   "private": true,
-  "version": "0.0.0",
   "description": "基于Lerna管理Monorepo项目的最佳实践",
   "main": "index.js",
   "repository": "https://github.com/tutuxxx/public-project-best-practices.git",
