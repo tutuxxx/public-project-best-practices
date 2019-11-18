@@ -10,6 +10,7 @@
       "npmClientArgs": ["--no-package-lock"]
     },
     "publish": {
+      "allowBranch": "master",
       "message": "chore(release): publish %s"
     }
   },

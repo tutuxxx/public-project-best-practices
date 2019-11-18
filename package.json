@@ -13,9 +13,8 @@
     "clean": "rimraf package-lock.json packages/*/node_modules packages/*/package-lock.json",
     "bootstrap:lerna": "lerna bootstrap",
     "bootstrap": "npm-run-all clean bootstrap:lerna",
-    "publish:lerna": "lerna publish --exact",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "publish": "npm-run-all publish:lerna changelog"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git commit -m 'docs: 更新changelog' && git push",
+    "publish": "lerna publish && npm run changelog"
   },
   "husky": {
     "hooks": {
