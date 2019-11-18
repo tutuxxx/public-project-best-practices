@@ -3,8 +3,9 @@
 const program = require('commander');
 const { say } = require('../src/index');
 
+program.version(require('../package').version, '-v, --version', 'output the current version');
+
 program
-  .version(require('../package').version, '-v, --version', 'output the current version')
   .command('say [msg]')
   .description('say something')
   .action((...args) => {
