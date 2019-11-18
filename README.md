@@ -20,7 +20,7 @@ some gitlabels
 
 ✅ 版本规范：[semver](https://semver.org/lang/zh-CN/)
 
-✅ CHANGELOG自动生成：[conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog)、conventional-github-releaser
+✅ CHANGELOG自动生成：[conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog)
 
 ✅ 自动创建Github Labels：[git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
 
