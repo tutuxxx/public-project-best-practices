@@ -1,0 +1,37 @@
+{
+  "name": "@iworld/hello-cli",
+  "version": "0.0.0",
+  "description": "@iworld/hello-cli",
+  "keywords": [
+    "cli"
+  ],
+  "author": "tutuxxx <yushijiechn@qq.com>",
+  "homepage": "https://github.com/tutuxxx/public-project-best-practices/tree/master/packages/hello-cli#readme",
+  "license": "MIT",
+  "bin": {
+    "hello": "bin/hello.js"
+  },
+  "main": "index.js",
+  "files": [
+    "bin",
+    "__tests__",
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutuxxx/public-project-best-practices.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tutuxxx/public-project-best-practices/issues"
+  },
+  "dependencies": {
+    "commander": "^4.0.1"
+  }
+}
