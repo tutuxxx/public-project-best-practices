@@ -1,6 +1,18 @@
 {
   "extends": ["standard", "prettier"],
   "plugins": ["prettier", "standard"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "parser": "babel-eslint"
+    },
+    {
+      "files": ["*.ts"],
+      "extends": ["plugin:@typescript-eslint/recommended"],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint"]
+    }
+  ],
   "rules": {
     "prettier/prettier": [
       "error",
