@@ -1,4 +1,8 @@
-# [](https://github.com/tutuxxx/public-project-best-practices/compare/v0.0.1-alpha.7...v) (2019-11-18)
+# [](https://github.com/tutuxxx/public-project-best-practices/compare/v0.0.1-alpha.8...v) (2019-11-19)
+
+
+
+## [0.0.1-alpha.8](https://github.com/tutuxxx/public-project-best-practices/compare/v0.0.1-alpha.7...v0.0.1-alpha.8) (2019-11-19)
 
 
 
