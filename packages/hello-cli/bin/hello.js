@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander');
-const { say } = require('../src/index');
+const { say } = require('../dist/index');
 
 program.version(require('../package').version, '-v, --version', 'output the current version');
 

@@ -15,8 +15,7 @@
   "files": [
     "bin",
     "__tests__",
-    "dist",
-    "src"
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
@@ -26,7 +25,8 @@
     "url": "git+https://github.com/tutuxxx/public-project-best-practices.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "rm -rf dist && tsc",
+    "dev": "tsc -w"
   },
   "bugs": {
     "url": "https://github.com/tutuxxx/public-project-best-practices/issues"

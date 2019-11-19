@@ -1,4 +1,4 @@
-function say(msg) {
+function say(msg: string): void {
   console.log(msg);
 }
 
