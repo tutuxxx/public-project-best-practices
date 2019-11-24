@@ -1,5 +1,5 @@
-function say(message: string): void {
-  console.log(message);
+function say(msg: string): void {
+  console.log(msg);
 }
 
 module.exports.say = say;
