@@ -1,4 +1,13 @@
-# [](https://github.com/tutuxxx/public-project-best-practices/compare/v0.0.1-alpha.8...v) (2019-11-19)
+# [](https://github.com/tutuxxx/public-project-best-practices/compare/v0.1.0-beta.1...v) (2019-11-24)
+
+
+
+# [0.1.0-beta.1](https://github.com/tutuxxx/public-project-best-practices/compare/v0.0.1-alpha.8...v0.1.0-beta.1) (2019-11-24)
+
+
+### Features
+
+* **cli:** 发版测试 ([1cf7d10](https://github.com/tutuxxx/public-project-best-practices/commit/1cf7d10f4d9bf19e7d172b5b430dbb5259c7eb27))
 
 
 
