@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "dist/",
-    "lib": ["esnext"]
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
   },
-  "include": ["src"],
+  "include": [
+    "src/**/*.ts",
+    "typings/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
     "**/__tests__/*"
