@@ -16,8 +16,8 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git commit -m 'docs: 更新changelog' && git push",
     "publish": "lerna publish",
     "publish:next": "lerna publish --preid=beta --dist-tag=next",
-    "build:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup --config rollup.config.js",
-    "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup --config rollup.config.js -w",
+    "build:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -c rollup.config.js --environment NODE_ENV:production",
+    "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -wc rollup.config.js --environment NODE_ENV:development",
     "build:cli": "lerna exec --scope @iworld/hello-cli -- tsc",
     "dev:cli": "lerna exec --scope @iworld/hello-cli -- tsc -w"
   },
@@ -72,6 +72,7 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.2",
     "rollup-plugin-uglify": "^6.0.3",
     "typescript": "^3.7.2"
