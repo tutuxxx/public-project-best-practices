@@ -15,7 +15,11 @@
     "bootstrap": "npm-run-all clean bootstrap:lerna",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git commit -m 'docs: 更新changelog' && git push",
     "publish": "lerna publish",
-    "publish:next": "lerna publish --preid=beta --dist-tag=next"
+    "publish:next": "lerna publish --preid=beta --dist-tag=next",
+    "build:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup --config rollup.config.js",
+    "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup --config rollup.config.js -w",
+    "build:cli": "lerna exec --scope @iworld/hello-cli -- tsc",
+    "dev:cli": "lerna exec --scope @iworld/hello-cli -- tsc -w"
   },
   "husky": {
     "hooks": {
@@ -35,11 +39,18 @@
     }
   },
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
     "babel-eslint": "^10.0.3",
+    "babel-polyfill": "^6.26.0",
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.28",
     "cz-lerna-changelog": "^2.0.2",
@@ -52,11 +63,17 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.0.9",
-    "lerna": "^3.18.4",
+    "lerna": "^3.19.0",
     "lint-staged": "^9.4.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
+    "rollup": "^1.27.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-uglify": "^6.0.3",
     "typescript": "^3.7.2"
   }
 }

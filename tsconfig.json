@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "lib": ["esnext"],
+    "rootDir": ".",
+    "paths": {
+      "@iworld/hello-shared-utils": ["packages/hello-shared-utils/src"],
+      "@iworld/hello-runtime-core": ["packages/hello-runtime-core/src"]
+    }
+  },
+  "include": [
+    "packages/*/src"
+  ],
+  "exclude": [
+    "dist",
+    "__tests__",
+    "node_modules"
+  ]
+}
