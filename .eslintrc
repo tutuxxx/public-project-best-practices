@@ -8,7 +8,7 @@
     },
     {
       "files": ["*.ts"],
-      "extends": ["standard", "plugin:@typescript-eslint/recommended"],
+      "extends": ["prettier/@typescript-eslint", "standard", "plugin:prettier/recommended"],
       "parser": "@typescript-eslint/parser",
       "plugins": ["@typescript-eslint"]
     }
@@ -36,7 +36,7 @@
   "globals": {
   },
   "env": {
-    "es6": true,
+    "browser": true,
     "node": true
   }
 }
