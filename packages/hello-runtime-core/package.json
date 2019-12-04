@@ -1,6 +1,6 @@
 {
   "name": "@iworld/hello-runtime-core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "@iworld/hello-runtime-core",
   "keywords": [
     "runtime"
@@ -24,6 +24,5 @@
   },
   "bugs": {
     "url": "https://github.com/tutuxxx/public-project-best-practices/issues"
-  },
-  "dependencies": {}
+  }
 }
