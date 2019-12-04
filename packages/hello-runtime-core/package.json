@@ -1,0 +1,29 @@
+{
+  "name": "@iworld/hello-runtime-core",
+  "version": "0.0.0",
+  "description": "@iworld/hello-runtime-core",
+  "keywords": [
+    "runtime"
+  ],
+  "author": "tutuxxx <yushijiechn@qq.com>",
+  "homepage": "https://github.com/tutuxxx/public-project-best-practices/tree/master/packages/hello-runtime-core#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "dist/hello.esm.js",
+  "files": [
+    "dist",
+    "index.js",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutuxxx/public-project-best-practices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tutuxxx/public-project-best-practices/issues"
+  },
+  "dependencies": {}
+}
