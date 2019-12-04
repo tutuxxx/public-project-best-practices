@@ -15,6 +15,7 @@
     "bootstrap": "npm-run-all clean bootstrap:lerna",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git commit -m 'docs: 更新changelog' && git push",
     "publish": "lerna publish",
+    "publish:alpha": "lerna publish --preid=alpha",
     "publish:next": "lerna publish --preid=beta --dist-tag=next",
     "build:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -c rollup.config.js --environment NODE_ENV:production",
     "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -wc rollup.config.js --environment NODE_ENV:development",
