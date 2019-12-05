@@ -1,4 +1,4 @@
-import Hello from '../dist/hello.esm'
+import Hello from '../src/index'
 
 describe('@iworld/hello-runtime-core', () => {
   it('测试Hello入口', () => {
