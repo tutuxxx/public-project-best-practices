@@ -9,3 +9,4 @@ packages/**/package-lock.json
 _book
 .cache
 .eslintcache
+coverage
