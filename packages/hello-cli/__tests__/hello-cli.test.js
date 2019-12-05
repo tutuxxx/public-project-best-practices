@@ -1,7 +1,9 @@
-'use strict';
-
-const helloCli = require('..');
+import { say } from '../src/index'
 
 describe('@iworld/hello-cli', () => {
-    it('needs tests');
+  it('console.log the text "World"', () => {
+    console.log = jest.fn();
+    say('World');
+    expect(console.log.mock.calls[0][0]).toBe('World');
+  });
 });

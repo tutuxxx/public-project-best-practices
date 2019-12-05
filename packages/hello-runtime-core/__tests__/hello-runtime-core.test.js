@@ -1,7 +1,8 @@
-'use strict';
-
-const helloRuntimeCore = require('..');
+import Hello from '../dist/hello.esm'
 
 describe('@iworld/hello-runtime-core', () => {
-    it('needs tests');
+  it('测试Hello入口', () => {
+    const hello = new Hello('world')
+    expect(hello.say()).toBe('Hello, World')
+  })
 });

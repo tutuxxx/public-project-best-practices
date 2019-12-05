@@ -11,7 +11,7 @@
   "bin": {
     "hello": "bin/hello.js"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "bin",
     "__tests__",
