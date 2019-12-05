@@ -40,6 +40,11 @@
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
+  "jest": {
+    "moduleNameMapper": {
+      "^@iworld\/hello-shared-utils$": "<rootDir>/packages/hello-shared-utils/src/index.ts"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/node": "^7.7.4",
