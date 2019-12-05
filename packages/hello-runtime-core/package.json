@@ -15,6 +15,9 @@
     "index.js",
     "package.json"
   ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js --environment NODE_ENV:production"
+  },
   "publishConfig": {
     "access": "public"
   },

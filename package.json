@@ -17,6 +17,7 @@
     "publish": "lerna publish",
     "publish:alpha": "lerna publish --preid=alpha",
     "publish:next": "lerna publish --preid=beta --dist-tag=next",
+    "build": "lerna run build",
     "build:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -c rollup.config.js --environment NODE_ENV:production",
     "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -wc rollup.config.js --environment NODE_ENV:development",
     "build:cli": "lerna exec --scope @iworld/hello-cli -- tsc",
