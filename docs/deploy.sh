@@ -4,10 +4,10 @@
 set -e
 
 # 生成静态文件
-npm run docs:build
+npm run build:docs
 
 # 进入生成的文件夹
-cd .vuepress/dist
+cd docs/.vuepress/dist
 
 git init
 git add -A
@@ -17,6 +17,6 @@ git commit -m 'docs: 更新文档'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:tutuxxx/public-project-best-practices.git master:gh-pages
+git push -f git@github.com:tutuxxx/public-project-best-practices.git master:gh-pages
 
 cd -

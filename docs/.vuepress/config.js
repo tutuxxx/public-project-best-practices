@@ -8,6 +8,7 @@ module.exports = {
         lineNumbers: true
     },
     serviceWorker: true,
+    base: '/public-project-best-practices/',
     themeConfig: {
         logo: '/hello.png',
         lastUpdated: 'lastUpdate',
