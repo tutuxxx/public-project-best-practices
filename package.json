@@ -26,7 +26,8 @@
     "dev:runtime": "lerna exec --scope @iworld/hello-runtime-core -- rollup -wc rollup.config.js --environment NODE_ENV:development",
     "build:cli": "lerna exec --scope @iworld/hello-cli -- tsc",
     "dev:cli": "lerna exec --scope @iworld/hello-cli -- tsc -w",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:ci": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "husky": {
     "hooks": {
@@ -68,6 +69,7 @@
     "babel-polyfill": "^6.26.0",
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.28",
+    "coveralls": "^3.0.9",
     "cz-lerna-changelog": "^2.0.2",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.5.0",

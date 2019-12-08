@@ -15,7 +15,7 @@ jobs:
         - npm i
         - travis_wait 30 npm run bootstrap
         - npm run build
-        - npm run test
+        - npm run test:ci
     - stage: publish
       if: (branch = master) AND (NOT (type IN (pull_request)))
       script: npm run build:docs
