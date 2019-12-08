@@ -11,7 +11,7 @@ features:
 - title: Lerna管理
   details: 享受 Lerna + Monorepo 的开发体验。
 - title: 工具集成
-  details: 集成多个开发辅助工具，为您的项目保障护航。
+  details: 集成多个开发辅助工具，为您的项目保驾护航。
 ---
 <ClientOnly>
   <Footer/>
