@@ -1,6 +1,10 @@
 # public-project-best-practices
 
-some gitlabels
+[![](https://img.shields.io/node/v/@iworld/hello-cli.svg)](https://www.npmjs.com/package/@iworld/hello-cli)
+[![](https://img.shields.io/npm/dt/@iworld/hello-runtime-core.svg)](https://www.npmjs.com/package/@iworld/hello-runtime-core)
+[![](https://img.shields.io/npm/l/@iworld/hello-runtime-core.svg)](https://www.npmjs.com/package/@iworld/hello-runtime-core)
+[![](https://coveralls.io/repos/github/tutuxxx/public-project-best-practices/badge.svg?branch=master)](https://coveralls.io/github/tutuxxx/public-project-best-practices)
+[![](https://img.shields.io/travis/tutuxxx/public-project-best-practices.svg)](https://www.npmjs.com/package/@iworld/hello-cli)
 
 > 良好的开端是成功的一半
 
@@ -24,7 +28,7 @@ some gitlabels
 
 ✅ 自动创建Github Labels：[git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
 
-✅ 自动创建gitignore：[gitignore.io](https://gitignore.io/)
+✅ 创建gitignore：[gitignore.io](https://gitignore.io/)
 
 ✅ 代码规范：[husky](https://github.com/typicode/husky)、 [esLint](https://github.com/eslint/eslint)、 [lint-staged ](https://github.com/okonet/lint-staged)、 [prettier](https://github.com/prettier/prettier)
 
@@ -38,7 +42,9 @@ some gitlabels
 
 ✅ 持续集成：[travis](https://travis-ci.org/)
 
-✅ 文档：[gitbook](https://github.com/GitbookIO/gitbook)
+✅ 项目徽章：[shields](https://shields.io/)、[coveralls](https://coveralls.io/)
+
+✅ 文档：[vuepress](https://vuepress.vuejs.org/)
 
 ## 更新日志
 
