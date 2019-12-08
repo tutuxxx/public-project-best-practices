@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/tutuxxx/public-project-best-practices/compare/v0.1.1...v0.1.2) (2019-12-08)
+
+
+### Bug Fixes
+
+* 发布测试 ([ff7087b](https://github.com/tutuxxx/public-project-best-practices/commit/ff7087b87670635978688b490cd55cca290167bd))
+
+
+
+
+
 ## [0.1.1](https://github.com/tutuxxx/public-project-best-practices/compare/v0.1.0...v0.1.1) (2019-12-08)
 
 **Note:** Version bump only for package @iworld/hello-runtime-core
