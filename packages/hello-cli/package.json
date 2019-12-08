@@ -17,6 +17,9 @@
     "__tests__",
     "dist"
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "publishConfig": {
     "access": "public"
   },
