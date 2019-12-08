@@ -9,6 +9,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js,.ts --fix ./packages",
+    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs",
+    "publish:docs": "bash docs/deploy.sh",
     "commit": "git-cz",
     "clean": "rimraf package-lock.json packages/*/node_modules packages/*/package-lock.json",
     "bootstrap:lerna": "lerna bootstrap",
@@ -87,6 +90,7 @@
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.2",
     "rollup-plugin-uglify": "^6.0.3",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "vuepress": "^1.2.0"
   }
 }
