@@ -7,7 +7,7 @@ program.version(require('../package').version, '-v, --version', 'output the curr
 
 program
   .command('say [msg]')
-  .description('say something')
+  .description('say your input')
   .action((...args) => {
     say(args[0]);
   });
