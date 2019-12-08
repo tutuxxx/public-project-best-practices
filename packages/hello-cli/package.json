@@ -35,6 +35,5 @@
     "commander": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "^12.12.14"
   }
 }
