@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/tutuxxx/public-project-best-practices/compare/v0.1.2...v0.1.3) (2019-12-10)
+
+
+### Bug Fixes
+
+* **runtime:** 发布测试 ([9f8c5f9](https://github.com/tutuxxx/public-project-best-practices/commit/9f8c5f93ca635858df2013a8d56c17be0d4d28c9))
+
+
+
+
+
 ## [0.1.2](https://github.com/tutuxxx/public-project-best-practices/compare/v0.1.1...v0.1.2) (2019-12-08)
 
 
