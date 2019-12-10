@@ -7,6 +7,6 @@ export default class Hello {
   }
 
   say(): string {
-    return 'Hello,' + this.msg;
+    return 'Hello, ' + this.msg;
   }
 }
