@@ -21,7 +21,7 @@ jobs:
       script: npm run build:docs
       deploy:
         - provider: pages
-          skip-cleanup: true
+          skip_cleanup: true
           github-token: $GITHUB_TOKEN
           local-dir: docs/.vuepress/dist
           on:
