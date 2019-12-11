@@ -44,6 +44,10 @@
 
 ✅ 项目徽章：[shields](https://shields.io/)、[coveralls](https://coveralls.io/)
 
+✅ README：[readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+
+✅ LOGO：[brandmark](https://brandmark.io/)、[looka](https://looka.com/)
+
 ✅ 文档：[vuepress](https://vuepress.vuejs.org/)
 
 ## 更新日志
